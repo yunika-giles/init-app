@@ -22,7 +22,7 @@
   <spring.version>5.1.2.RELEASE</spring.version>
   <junit.version>4.11</junit.version>
   <log4j.version>1.2.17</log4j.version>
-  <sonar.host.url>http://52.86.85.128:9000</sonar.host.url>
+  <sonar.host.url>http://34.232.68.124:9000</sonar.host.url>
   <sonar.login>admin</sonar.login>
   <sonar.password>password</sonar.password>
   <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -101,13 +101,13 @@
      <repository>
        <id>van-app-release</id>
        <name>van-app-release</name>
-       <url>http://100.26.154.223:8081/repository/van-app-release</url>
+       <url>http://18.210.18.19:8081/repository/van-app-release</url>
      </repository>
      
      <snapshotRepository>
        <id>van-app-snapshot</id>
        <name>van-app-snapshot</name>
-       <url>http://100.26.154.223:8081/repository/van-app-snapshot</url>
+       <url>http://18.210.18.19:8081/repository/van-app-snapshot</url>
      </snapshotRepository>
      
  </distributionManagement>
