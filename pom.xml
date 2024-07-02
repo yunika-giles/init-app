@@ -7,7 +7,7 @@
  <packaging>war</packaging>
  <version>0.0.1-SNAPSHOT</version>
  
- <name>vin-solutions-app</name>
+ <name>van-app</name>
 
  <description>CICD jenkins Java Project</description>
 
@@ -22,13 +22,13 @@
   <spring.version>5.1.2.RELEASE</spring.version>
   <junit.version>4.11</junit.version>
   <log4j.version>1.2.17</log4j.version>
-  <sonar.host.url>sonarqube-url</sonar.host.url>
-  <sonar.login>sonarqube-login</sonar.login>
-  <sonar.password>sonarqube-passwd</sonar.password>
+  <sonar.host.url>http://34.232.68.124:9000</sonar.host.url>
+  <sonar.login>admin</sonar.login>
+  <sonar.password>password</sonar.password>
   <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-  <sonar.projectKey>sonarqube-token</sonar.projectKey>
-  <sonar.projectName>sonarqube-project-name</sonar.projectName>
+  <sonar.projectKey>squ_e23f4b9cdaa2522d731740c7298b33f18a597d17</sonar.projectKey>
+  <sonar.projectName>van-app</sonar.projectName>
         
  </properties>
 
@@ -99,21 +99,21 @@
  
  <distributionManagement>
      <repository>
-       <id>nexus</id>
-       <name>your-release-repo-name</name>
-       <url>nexus-release-url</url>
+       <id>van-app-release</id>
+       <name>van-app-release</name>
+       <url>http://18.210.18.19:8081/repository/van-app-release</url>
      </repository>
      
      <snapshotRepository>
-       <id>nexus</id>
-       <name>your-snapshot-repo-name</name>
-       <url>nexus=snapshot-url</url>
+       <id>van-app-snapshot</id>
+       <name>van-app-snapshot</name>
+       <url>http://18.210.18.19:8081/repository/van-app-snapshot</url>
      </snapshotRepository>
      
  </distributionManagement>
  
  <build>
-  <finalName>dev-init-app-v1</finalName>
+  <finalName>van-app</finalName>
   
   <plugins>
    <plugin>
