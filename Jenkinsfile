@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'wls-agent' }  // Replace 'wsl-agent' with the label of your agent
+    agent { label 'agent' }  // Replace 'wsl-agent' with the label of your agent
 
     environment {
         GITHUB_REPO_URL = 'https://github.com/yunika-giles/init-app.git'
