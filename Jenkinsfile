@@ -6,7 +6,7 @@ pipeline {
         BRANCH_NAME = 'main'  // Replace with your branch name if it's not 'main'
         GITHUB_CREDENTIALS_ID = 'GitHub-token'  // Replace with your Jenkins GitHub credentials ID
         DOCKERHUB_CREDENTIALS_ID = 'dockerhub'  // Replace with your Jenkins Docker Hub credentials ID
-        DOCKERHUB_REPO = 'giles97/van-repo'  // Replace with your Docker Hub repository
+        DOCKERHUB_REPO = 'giles97/init-app'  // Replace with your Docker Hub repository
     }
 
     stages {
