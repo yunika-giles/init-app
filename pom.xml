@@ -27,8 +27,8 @@
   <sonar.password>password</sonar.password>
   <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-  <sonar.projectKey>squ_e23f4b9cdaa2522d731740c7298b33f18a597d17</sonar.projectKey>
-  <sonar.projectName>van-app</sonar.projectName>
+  <sonar.projectKey>squ_01a6ceb6711e00a36722226d4e2b8886a8344c46</sonar.projectKey>
+  <sonar.projectName>init-app</sonar.projectName>
         
  </properties>
 
