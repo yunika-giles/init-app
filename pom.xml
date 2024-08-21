@@ -99,15 +99,15 @@
  
  <distributionManagement>
      <repository>
-       <id>van-app-release</id>
-       <name>van-app-release</name>
-       <url>http://18.210.18.19:8081/repository/van-app-release</url>
+       <id>in-app-release</id>
+       <name>in-app-release</name>
+       <url>http://3.80.95.247:8081/repository/init-app-release</url>
      </repository>
      
      <snapshotRepository>
-       <id>van-app-snapshot</id>
-       <name>van-app-snapshot</name>
-       <url>http://18.210.18.19:8081/repository/van-app-snapshot</url>
+       <id>in-app-snapshots</id>
+       <name>in-app-snapshots</name>
+       <url>http://3.80.95.247:8081/repository/init-app-snapshots</url>
      </snapshotRepository>
      
  </distributionManagement>
