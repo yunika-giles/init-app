@@ -99,15 +99,15 @@
  
  <distributionManagement>
      <repository>
-       <id>in-app-release</id>
-       <name>in-app-release</name>
-       <url>http://3.80.95.247:8081/repository/init-app-release</url>
+       <id>init-app-release</id>
+       <name>init-app-release</name>
+       <url>http://54.237.68.103:8081/repository/init-app-release</url>
      </repository>
      
      <snapshotRepository>
-       <id>in-app-snapshots</id>
-       <name>in-app-snapshots</name>
-       <url>http://3.80.95.247:8081/repository/init-app-snapshots</url>
+       <id>init-app-snapshots</id>
+       <name>init-app-snapshots</name>
+       <url>http://54.237.68.103:8081/repository/init-app-snapshot</url>
      </snapshotRepository>
      
  </distributionManagement>
