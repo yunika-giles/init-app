@@ -105,8 +105,8 @@
      </repository>
      
      <snapshotRepository>
-       <id>init-app-snapshots</id>
-       <name>init-app-snapshots</name>
+       <id>init-app-snapshot</id>
+       <name>init-app-snapshot</name>
        <url>http://54.237.68.103:8081/repository/init-app-snapshot</url>
      </snapshotRepository>
      
