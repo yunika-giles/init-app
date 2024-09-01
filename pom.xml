@@ -113,7 +113,7 @@
  </distributionManagement>
  
  <build>
-  <finalName>van-app</finalName>
+  <finalName>init-app</finalName>
   
   <plugins>
    <plugin>
