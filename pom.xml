@@ -101,13 +101,13 @@
      <repository>
        <id>init-app-release</id>
        <name>init-app-release</name>
-       <url>http://54.237.68.103:8081/repository/init-app-release</url>
+       <url>http://54.198.165.79:8081/repository/init-app-release</url>
      </repository>
      
      <snapshotRepository>
        <id>init-app-snapshot</id>
        <name>init-app-snapshot</name>
-       <url>http://54.237.68.103:8081/repository/init-app-snapshot</url>
+       <url>http://54.198.165.79:8081/repository/init-app-snapshot</url>
      </snapshotRepository>
      
  </distributionManagement>
