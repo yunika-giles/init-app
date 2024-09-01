@@ -7,13 +7,13 @@
  <packaging>war</packaging>
  <version>0.0.1-SNAPSHOT</version>
  
- <name>van-app</name>
+ <name>init-app</name>
 
  <description>CICD jenkins Java Project</description>
 
  <organization>
   <name>Giles Technologies</name>
-  <url>http://vintech.com/</url>
+  <url>http://intech.com/</url>
  </organization>
 
  <properties>
